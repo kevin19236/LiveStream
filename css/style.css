@@ -152,15 +152,43 @@ height:70%;
 }
 
 .transparentbar {
-        background-repeat:no-repeat;
-        cursor:pointer;
-        outline:none;
-        border:none;
-        box-shadow:none; 
-        background-image: none;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	outline:none;
+	border:none;
+	box-shadow:none; 
+	background-image: none;
 
-        background-color: transparent;
-        background: transparent;
-        border-color: transparent;
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+}
 
-    }
+ .back-video{
+	position:absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+}
+.image-user{
+	position:absolute;
+	top: -25px;
+	left: -25px;
+	height: 40%;
+	z-index: 1;
+}
+.blackground{
+	background-color:black;
+}
+
+.orange-text{
+	color: orange;
+}
+
+.white-text{
+	color: white;
+}
+
+.red-text{
+	color:red;
+}
